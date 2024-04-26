@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Json Mock server
+Install Json Server: `npm install --global json-server@latest`
+Run `json-server --watch src/data/db.json` for run the json server in order to get the mocked data. Navigate to `http://localhost:3000/foods`. The server will be listening in this port for request.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
