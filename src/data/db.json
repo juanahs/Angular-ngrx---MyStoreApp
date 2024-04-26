@@ -1,0 +1,19 @@
+{
+  "foods":[
+    {
+      "id":0,
+      "name": "apple",
+      "description": "crunchy and fibrous",
+      "color": "red",
+      "group": "fruit"
+    },
+    {
+      "id":1,
+      "name": "banana",
+      "description": "soft and peelable",
+      "color": "yellow",
+      "group": "fruit"
+    }
+  ]
+}
+

@@ -1,0 +1,9 @@
+<form>
+    <h2>Add a new food</h2>
+    <p> id: <input name="food_id" [(ngModel)]="food.id" type="text"> </p>
+    <p> name: <input name="food_name" [(ngModel)]="food.name" type="text"> </p>
+    <p> description: <input name="food_description" [(ngModel)]="food.description" type="text"> </p>
+    <p> color: <input name="food_color" [(ngModel)]="food.color" type="text"> </p>
+    <p> group: <input name="food_group" [(ngModel)]="food.group" type="text"> </p>
+    <button (click)="addFood(food)"> Add food</button>
+</form>
